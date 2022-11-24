@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.navbar{
+    position: fixed;
+    top:0;
+    z-index: 1;
+    
+    width: 100%;
+    height: 7vh;
+    border: px solid rgb(0, 0, 0);
+    background-color: rgb(34, 24, 24);
+}
+.conter{
+    width: 75%;
+    margin: auto;
+}
+.NAV{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.nav-left p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #EDEDED;
+    margin-right: 32px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.nav-left ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 15px 20px;
+    border: 1px solid black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.nav-left ul li a:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.nav-reght ul{
+    display: flex;
+    list-style: none;
+    
+}
+.imnav{
+    background-color: white;
+    margin-top: 8px;
+    border: 1px solid black;    
+}
+.imnav1{
+    background-color: white;
+    margin-top: 8px;
+    width: 24px;
+    margin-left: 21px;
+    border: 1px solid black;
+
+    
+}
+.kalon{
+    margin-top: 45px;
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    border: 0.01px solid rgb(245, 235, 218);
+    background-image: url(./images/IMAGE1AA.png);
+}
+.keep{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keepp1 h1{
+    width: 100%;
+    font-size: 56px;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#HHH{
+    margin-top: 70px;
+}
+.keepp1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.81);
+    margin-left: 95px;
+    margin-bottom: 49px;
+}
+.HR{
+    width: 10%;
+    height: 0.2vh;
+    background: #FFFFFF;
+    margin: 36px    250px 18px;
+    font-size: 50px;
+}
+.BUT1{
+    margin-left: 210px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid white;
+    padding: 5px 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.BUT1:hover{
+    background-color: rgb(65, 110, 95);
+    color: cornflowerblue;
+    border-radius: 20%;
+}
+.NOW{
+    display: flex;
+    margin-left: 255px;
+}
+.NOW1{
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(216, 212, 212);
+    background-color:transparent;
+    margin-top: 90px;
+    margin-right: 6px;
+    
+}
+.NOW1:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+#PPp1{
+    color: #ce965a;;
+    margin-top: 58px;
+    border-bottom:1px solid #704b38;
+    width: 90%;
+}
+#PPp2{
+    color: #ce965a;;
+    margin-top: 58px;
+    border-bottom:1px solid #704b38;
+    width: 90%;
+}
+#PPp3{
+    color: #ce965a;;
+    margin-top: 58px;
+    border-bottom:1px solid #704b38;
+    margin-right: 10px;
+    width: 90%;
+}
+.kalon2{
+    background-color: #C7AA8B;
+    border: 1px solid #C7AA8B;
+}
+.yakum{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.TEX p{
+    width: 90%;
+    font-weight: 400;
+    
+}
+.bii{
+    width: 33%;
+}
+.lamp{
+    display:flex;
+    justify-content: center;
+    margin: 25px 0px 40px;
+}
+.lamp2{
+    display:flex;
+    justify-content: center;
+    margin: 25px 0px 40px;
+    margin-bottom: 45px;
+}
+.lamp3{
+    width: 30%;
+    height: 15vh;
+    display:flex;
+    justify-content: center;
+    margin: 25px 0px 40px 90px;
+   ;
+}
+.YAK h1{
+    margin-top: 22px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+.YAK p:nth-child(2){
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    color: #4D4D4D;
+    margin-bottom: 83px;
+}
+#HR2{
+    width: 85%;
+    height: 0.001px;
+
+    background: rgba(50, 50, 50, 0.13);
+    margin-right: 20px;
+}
+.kalon3{
+    width: 100%;
+    height: 60vh;
+    border: 0.1px solid bisque;
+    background-image: url(./images/IMAGE3AA.png);
+}
+.kalon3 h1{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    color: #C7AA8B;
+    margin-top: 127px;
+}
+#hr3{
+    margin-top: 23px;
+    width: 6%;
+    height: 0.1vh;
+    background-color: #C7AA8B;
+}
+.kalon4{
+    display: flex;
+    border: 1px solid white;
+}
+.kalon4A{
+    display: flex;
+}
+.kalon4A h1{
+    margin-right: 113px;
+    margin-top: 76px;
+}
+.Pif{
+    margin-right: 20px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.inst{
+    margin-top: 13px;
+    margin-right: 10.13px;
+    margin-bottom: 92.5px;
+}
+.kalon5{
+    width: 100%;
+    height: 55vh;
+    background-color:  #F7F7F7;
+    text-align: center;
+    border: 1px solid #F7F7F7;
+    border-bottom: 1px solid #F7F7F7;
+}
+.kalon5 h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: rgba(50, 50, 50, 0.36);
+    
+}
+.xat{
+   margin-left: 470px;
+    border-bottom: 1px rgba(50, 50, 50, 0.18);
+    width:70px;
+    height: 2.2px;
+    background: rgba(50, 50, 50, 0.18);
+    margin-bottom: 46px;
+    margin-top: 14px;
+}
+.tex2A{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    opacity: 0.9;
+}
+.tex2A h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C7AA8B;
+    margin-bottom: 90px;
+}
+.texx1 p{
+    /* font-family: 'Vollkorn'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #4D4D4D;
+    margin-bottom: 5px;
+}
+.texx1{
+    width: 33.3%;
+    border: 1px solid #F7F7F7;
+}
+.texx2{
+    width: 39%;
+    border: 1px solid #F7F7F7;
+}
+.texx2 p{
+    margin-bottom: 21px;
+    /* font-family: 'Vollkorn'; */
+    font-weight: 400;
+    font-size: 16.5px;
+    line-height: 20px;
+    text-align: center;
+    color: #272121;
+    margin-left: 40px;
+}
+.kalon6{
+    width: 100%;
+    height: 25vh;
+    background-color: #3f3434;
+    border: 1px solid #0e0a0a ;
+}
+.S2014{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+}
+.DIV1{
+    display: flex;
+    
+
+}
+.img{
+    width: 18px;
+    height: 22px;
+   margin-right: 8px;
+   margin-bottom: 195px;
+}
+.DIV1 p{
+    font-family: 'Roboto Condensed';
+font-weight: 400;
+font-size: 14px;
+color: #858585;
+}
+.DIV2A{
+    background: transparent;
+    /* font-family: 'Roboto Condensed'; */
+    padding: 10px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    border: 2.5px solid  #C7AA8B;;
+    text-transform: uppercase;
+    color: #C7AA8B;
+    cursor: pointer;
+}
+.DIV2A:hover{
+    background-color: #EDEDED;
+    color: #0e0a0a;
+    cursor: pointer;
+}
+.DIV3{
+    font-family: 'Roboto Condensed';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+text-align: right;
+color: #858585;
+}
+.DDD{
+    border-top: 1px solid black;
+}
